@@ -56,7 +56,7 @@
     "markdown-it": "^12.2.0",
     "markdown-it-anchor": "^8.4.1",
     "markdown-it-link-attributes": "^3.0.0",
-    "modernizr": "^3.11.8",
+    "modernizr": "^3.12.0",
     "node-sass": "^8.0.0",
     "postcss": "^8.3.11",
     "postcss-cli": "^9.0.1",
