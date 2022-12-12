@@ -69,6 +69,6 @@
     "webpack-cli": "^4.9.1"
   },
   "dependencies": {
-    "mermaid": "^8.13.3"
+    "mermaid": "^9.1.2"
   }
 }
