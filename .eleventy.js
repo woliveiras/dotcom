@@ -14,7 +14,6 @@ const dateFilter = require("./utils/filters/dateFilter.js");
 const imgSize = require("./utils/filters/imgSize.js");
 const cacheBuster = require("./utils/filters/cacheBuster.js");
 const tagList = require("./utils/collections/tagList.js");
-const readingTime = require('eleventy-plugin-reading-time');
 const mila = require('markdown-it-link-attributes');
 
 // Import transforms

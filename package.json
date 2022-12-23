@@ -5,7 +5,7 @@
   "scripts": {
     "eleventy:dev": "cross-env ELEVENTY_ENV=development eleventy --serve",
     "eleventy:prod": "cross-env ELEVENTY_ENV=production eleventy",
-    "prebuild": "npm run lint:sass && NODE_ENV=production npm run sass:prod && npm run scripts && npm run modernizr",
+    "prebuild": "npm run lint:sass && NODE_ENV=production npm run sass:prod && npm run modernizr",
     "build": "npm run clean && npm run eleventy:prod",
     "postbuild": "npm run postcss",
     "predev": "npm run sass:dev && npm run modernizr",
@@ -17,7 +17,6 @@
     "sass:dev": "node-sass src/assets/styles/scss/ --output src/assets/styles/ --source-map true --source-map-contents true",
     "sass:watch": "node-sass src/assets/styles/scss/main.scss --output src/assets/styles/ --source-map true --source-map-contents true -w",
     "lint:sass": "stylelint --fix 'src/assets/styles/scss/**/*.scss' 'src/assets/styles/scss/**/**/*.scss' 'src/assets/styles/scss/**/**/**/*.scss'",
-    "scripts": "webpack --mode=production",
     "clean": "rimraf dist",
     "modernizr": "npx modernizr -c .modernizrrc.json -d src/assets/scripts/vendors/modernizr.min.js -u",
     "test": "echo \"Error: no test specified\" && exit 1"
