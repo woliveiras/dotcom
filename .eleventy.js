@@ -158,12 +158,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/robots.txt");
   eleventyConfig.addPassthroughCopy("./src/manifest.json");
   eleventyConfig.addPassthroughCopy("./src/assets/scripts/vendors/modernizr.min.js");
-  if (env === 'production') {
-    eleventyConfig.addPassthroughCopy("./src/assets/scripts/bundle.min.js");
-  } else {
+  if (env !== 'production') {
     eleventyConfig.addPassthroughCopy("./src/assets/styles/*.map");
-    eleventyConfig.addPassthroughCopy("./src/assets/scripts/index.js");
-  };
+  }
 
   /**
    * Set custom markdown library instance
@@ -206,7 +203,6 @@ module.exports = function(eleventyConfig) {
    * @link https://www.11ty.dev/docs/watch-serve/
    */
   // Watch JS
-  eleventyConfig.addWatchTarget('./src/assets/scripts/index.js');
   eleventyConfig.addWatchTarget('./src/assets/styles/main.css');
 
   /**

@@ -11,16 +11,5 @@
         <a class="menu__link btn font-xs" href="{{ params.buttonHref | url }}" role = "button">{{ params.buttonText }}</a>
       </li>
     {% endif %}
-    <li class="menu__item toggle__theme--wrap ml-1h mr-1">
-      <button id="dark-light-mode" class="btn-reset toggle__theme--btn" title="Theme toggle">
-        {{ component('svg-icon', {
-          svgWidth: 27,
-          svgHeight: 27,
-          svgClass: "toggle__theme--svg",
-          symbolId: "theme",
-          screenReader: "Click here to change the theme."
-        }) }}
-      </button>
-    </li>
   </ul>
 </nav>
