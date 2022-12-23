@@ -6,10 +6,6 @@ eleventyNavigation:
 
 {% extends 'layouts/home.njk' %}
 
-{% if bodyClass is not defined %}
-  {% set bodyClass = 'gradient-home' %}
-{% endif %}
-
 {% block content %}
   <section class="hero">
     <h1>{{ home.h1 }}</h1>

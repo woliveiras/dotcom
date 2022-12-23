@@ -37,19 +37,6 @@
     }
   }
 
-  .gradient-home {
-    background-image: url("/assets/images/mesh-gradient-black.webp");
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-
-  /*! purgecss ignore */
-  .no-webp .gradient-home {
-    background-image: url("/assets/images/mesh-gradient-black.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-
   .light-theme {
     --body-background: var(--white);
     --body-font-color: var(--grey-900);

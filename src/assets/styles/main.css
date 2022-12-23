@@ -330,16 +330,6 @@ h6,
     box-shadow: 0 0 1rem var(--white-400-a); }
   .dark-theme .direct-link:hover::after {
     filter: brightness(500%); }
-  .dark-theme.gradient-home {
-    background-image: url("/assets/images/mesh-gradient-black.webp");
-    background-repeat: no-repeat;
-    background-size: contain; }
-
-/*! purgecss ignore */
-.no-webp .dark-theme.gradient-home {
-  background-image: url("/assets/images/mesh-gradient-black.jpg");
-  background-repeat: no-repeat;
-  background-size: contain; }
 
 .menu__items {
   display: flex;
@@ -781,17 +771,6 @@ header {
   .tmpl-home p {
     max-width: var(--line-length); }
 
-.gradient-home {
-  background-image: url("/assets/images/mesh-gradient-white.webp");
-  background-repeat: no-repeat;
-  background-size: contain; }
-
-/*! purgecss ignore */
-.no-webp .gradient-home {
-  background-image: url("/assets/images/mesh-gradient-white.jpg");
-  background-repeat: no-repeat;
-  background-size: contain; }
-
 .post__header {
   flex-direction: column; }
   .post__header h2 {
@@ -1004,15 +983,6 @@ header {
     box-shadow: 0 0 1rem var(--white-400-a); }
   .direct-link:hover::after {
     filter: brightness(500%); }
-  .gradient-home {
-    background-image: url("/assets/images/mesh-gradient-black.webp");
-    background-repeat: no-repeat;
-    background-size: contain; }
-  /*! purgecss ignore */
-  .no-webp .gradient-home {
-    background-image: url("/assets/images/mesh-gradient-black.jpg");
-    background-repeat: no-repeat;
-    background-size: contain; }
   .light-theme {
     --body-background: var(--white);
     --body-font-color: var(--grey-900);
