@@ -63,12 +63,12 @@
     "rimraf": "^3.0.2",
     "stylelint": "^14.0.1",
     "stylelint-config-standard-scss": "^2.0.0",
-    "stylelint-scss": "^4.0.0",
     "stylelint-order": "^5.0.0",
+    "stylelint-scss": "^4.0.0",
     "webpack": "^5.61.0",
     "webpack-cli": "^4.9.1"
   },
   "dependencies": {
-    "mermaid": "^9.1.2"
+    "mermaid": "^8.4.3"
   }
 }
