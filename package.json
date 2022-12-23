@@ -45,7 +45,7 @@
     "@fullhuman/postcss-purgecss": "^4.0.3",
     "autoprefixer": "^10.4.0",
     "clean-css": "latest",
-    "concurrently": "^6.3.0",
+    "concurrently": "^7.6.0",
     "critical": "^4.0.1",
     "cross-env": "^7.0.3",
     "eleventy-critical-css": "^1.1.0",
