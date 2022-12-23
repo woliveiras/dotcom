@@ -43,9 +43,6 @@ module.exports = function(eleventyConfig) {
       width: 1300,
     });
   }
-  // PWA
-  eleventyConfig.addPlugin(pluginPWA);
-  eleventyConfig.addPlugin(readingTime);
 
   // Setup mermaid markdown highlighter
   const highlighter = eleventyConfig.markdownHighlighter;

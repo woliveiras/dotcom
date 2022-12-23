@@ -1,28 +1,25 @@
 {
-  "title": "Yetty",
-  "url": "https://yetty.netlify.app",
+  "title": "William Oliveira",
+  "url": "https://woliveiras.com",
   "description": "Yet another Eleventy starter kit for my (& your) new projects with accessibility and performance in mind.",
-  "repo": "https://github.com/ygoex/yetty",
+  "repo": "https://github.com/woliveiras/dotcom",
   "feed": {
     "subtitle": "Yet another Eleventy starter kit for my (& your) new projects with accessibility and performance in mind.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://yetty.netlify.app/"
+    "id": "https://woliveiras.com/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://yetty.netlify.app/feed/feed.json"
+    "url": "https://woliveiras.com/feed/feed.json"
   },
   "author": {
-    "name": "Yolanda Gorriz Exposito",
-    "email": "helloygoex@gmail.com",
-    "username": "ygoex",
-    "url": "https://yetty.netlify.app/about-me/",
-    "github": "https://github.com/ygoex",
-    "twitter": "https://twitter.com/ygoex",
-    "codepen": "https://codepen.io/ygoex",
-    "dribbble": "https://dribbble.com/ygoex",
-    "behance": "https://www.behance.net/ygoex",
-    "linkedin": "https://www.linkedin.com/in/ygoex/"
+    "name": "William Oliveira",
+    "email": "w.oliveira542@gmail.com",
+    "username": "woliveiras",
+    "url": "https://woliveiras.com/about-me/",
+    "github": "https://github.com/woliveiras",
+    "twitter": "https://twitter.com/1ilhas",
+    "linkedin": "https://linkedin.com/in/william-oliveira"
   }
 }

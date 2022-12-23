@@ -2,7 +2,7 @@
   <div class="footer__top">
     <div class="footer__top-left mb-1">
       <a class="footer__logo home" href="{{ '/' | url }}">{{ metadata.title }}</a>
-      <p>{{ metadata.title }} is maintained by <a class="footer__link" href="{{ metadata.author.github }}">{{ metadata.author.name }}</a> as a quick start for some of her projects, but happy to share it for anyone that might find it useful. Check <a class="footer__link" href="{{ metadata.repo }}">the repo</a> on GitHub.</p>
+      {# <p>{{ metadata.title }} is maintained by <a class="footer__link" href="{{ metadata.author.github }}">{{ metadata.author.name }}</a> as a quick start for some of her projects, but happy to share it for anyone that might find it useful. Check <a class="footer__link" href="{{ metadata.repo }}">the repo</a> on GitHub.</p> #}
       <p>This page was generated on {% today %}</p>
     </div>
     <div class="footer__top-right">
@@ -17,9 +17,6 @@
           </li>
           <li class="footer__quick-link-item">
             <a class="footer__link" href="{{ '/about' | url }}">About</a>
-          </li>
-          <li class="footer__quick-link-item">
-            <a class="footer__link" href="mailto:{{ metadata.author.email }}">Contact</a>
           </li>
           <li class="footer__quick-link-item">
             <a class="footer__link" href="{{ '/sitemap' | url }}">Sitemap</a>
@@ -47,36 +44,6 @@
                 </a>
               </li>
               <li class="footer__social-item">
-                <a class="footer__social-link" href="{{ metadata.author.codepen }}">
-                  {{ component('svg-icon', {
-                    svgWidth: 21,
-                    svgHeight: 21,
-                    symbolId: "icon-social-codepen",
-                    screenReader: "Follow me on Codepen"
-                  }) }}
-                </a>
-              </li>
-              <li class="footer__social-item">
-                <a class="footer__social-link" href="{{ metadata.author.dribbble }}">
-                  {{ component('svg-icon', {
-                    svgWidth: 20,
-                    svgHeight: 20,
-                    symbolId: "icon-social-dribbble",
-                    screenReader: "Follow me on Dribbble"
-                  }) }}
-                </a>
-              </li>
-              {# <li class="footer__social-item">
-                <a class="footer__social-link" href="{{ metadata.author.behance }}">
-                  {{ component('svg-icon', {
-                    svgWidth: 20,
-                    svgHeight: 20,
-                    symbolId: "icon-social-behance",
-                    screenReader: "Follow me on Behance"
-                  }) }}
-                </a>
-              </li> #}
-              <li class="footer__social-item">
                 <a class="footer__social-link" href="{{ metadata.author.linkedin }}">
                   {{ component('svg-icon', {
                     svgWidth: 20,
@@ -103,8 +70,8 @@
     </div>
   </div>
   <p class="footer__copyright">&copy; {% year %}
-    <a class="footer__link" href="{{ metadata.author.github }}">
-      Ygoex</a> - Powered by <a class="footer__link" href="https://11ty.io">
+    <a class="footer__link" href="{{ metadata.author.twitter }}">
+      William Oliveira</a> - Powered by <a class="footer__link" href="https://11ty.io">
       Eleventy</a> and <a class="footer__link" href="https://www.netlify.com">
       Netlify</a>
   </p>
