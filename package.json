@@ -51,7 +51,7 @@
     "eleventy-plugin-pwa": "^1.0.8",
     "eleventy-plugin-reading-time": "^0.0.1",
     "html-minifier": "^4.0.0",
-    "luxon": "^2.0.2",
+    "luxon": "^2.5.2",
     "markdown-it": "^12.2.0",
     "markdown-it-anchor": "^8.4.1",
     "markdown-it-link-attributes": "^3.0.0",
