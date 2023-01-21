@@ -1,16 +1,13 @@
 ---
-name: Tails Azimuth
+name: William Oliveira
 avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+occupation: Senior frontend software engineer
+email: w.oliveira542@gmail.com
+twitter: https://twitter.com/1ilhas
+linkedin: https://www.linkedin.com/in/william-oliveira
+github: https://github.com/woliveiras
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+Senior Software Engineer with experience working with and leading the software architecture, software design, and implementation of frontend applications, UI components (development, test, maintenance, and evolution), and frontend libraries, whether they’re end-users or software developers.
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Working with frontend development since 2014. I started with jQuery, Angular.js (1x) and like the possibilities to work with performance, accessibility and software architecture for the web. I have experience with React, Nex.js, React Testing Library, Jest, AWS, Drone and CircleCI, ArgoCD, NX (monorepos), styled-components, and Material UI.
