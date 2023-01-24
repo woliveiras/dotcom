@@ -1,6 +1,6 @@
 ---
 name: William Oliveira
-avatar: /static/images/avatar.png
+avatar: /static/images/avatar-william-oliveira.png
 occupation: Senior frontend software engineer
 email: w.oliveira542@gmail.com
 twitter: https://twitter.com/1ilhas
